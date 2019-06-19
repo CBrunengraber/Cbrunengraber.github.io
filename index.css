@@ -21,6 +21,7 @@
     }
     .button_style:hover {
         background: rgb(76, 83, 87);
+        -webkit-appearance: none;
     }
 
 .Github_style {
