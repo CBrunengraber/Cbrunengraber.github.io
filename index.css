@@ -17,12 +17,16 @@
     border-bottom: 5px solid rgb(19, 40, 54);
     border-right: 5px solid rgb(19, 40, 54) ;
     outline: 0;
-    -webkit-appearance: none;
     }
     .button_style:hover {
         background: rgb(76, 83, 87);
-        -webkit-appearance: none;
     }
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}    
 
 .Github_style {
     background-image: url("GH.png");
